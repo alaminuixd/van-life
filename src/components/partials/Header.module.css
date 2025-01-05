@@ -1,0 +1,46 @@
+header {
+  display: grid;
+  grid-template-columns: 1fr 5fr;
+  align-items: center;
+  margin-top: 30px;
+}
+ul,
+li {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+.topLogo img {
+  width: 100%;
+  max-width: 120px;
+  filter: drop-shadow(1px 2px 3px rgba(0, 0, 0, 0.4));
+}
+nav {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  column-gap: 40px;
+}
+nav ul {
+  display: flex;
+  column-gap: 20px;
+}
+button {
+  background-color: #222 !important;
+  color: #fff;
+  border-radius: 3px;
+}
+a,
+a:active,
+a:visited,
+a:focus {
+  color: #333;
+}
+a:hover {
+  color: #c50039;
+}
+a.active {
+  text-decoration: underline;
+  font-weight: bold;
+  color: #c50039;
+}
