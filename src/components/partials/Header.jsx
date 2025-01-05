@@ -33,8 +33,22 @@ function Header() {
               Products
             </NavLink>
           </li>
-          <li>Services</li>
-          <li>Contact</li>
+          <li>
+            <NavLink
+              to={"/services"}
+              className={({ isActive }) => (isActive ? styles["active"] : "")}
+            >
+              Services
+            </NavLink>
+          </li>
+          <li>
+            <NavLink
+              to={"/contact"}
+              className={({ isActive }) => (isActive ? styles["active"] : "")}
+            >
+              Contact
+            </NavLink>
+          </li>
         </ul>
         <button>Signin</button>
       </nav>
